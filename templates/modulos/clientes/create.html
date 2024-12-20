@@ -1,0 +1,52 @@
+{% include "header.html" %}
+
+<div class="row">
+    <div class="col-5"></div>
+    <div class="col-5">
+        <div class="col-5">
+
+        <div class="card">
+            <div class="card-header">Agregar Cliente</div>
+                <form action="/clientes/create/guardar" method="post">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="" class="form-label">cedula</label>
+                            <input type="text" class="form-control" name="cedula" id="" aria-describedby="helpId"
+                                placeholder="Cedula"/>
+                    
+                 </div>
+            
+                 <div class="mb-3">
+                    <label for="" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" name="nombre" id="" aria-describedby="helpId"
+                        placeholder="Nombre"/>
+            
+                 </div>
+            
+                 <div class="mb-3">
+                    <label for="" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" name="apellido" id="" aria-describedby="helpId"
+                        placeholder="Apellido"/>
+                    
+                 </div>
+            
+                 <div class="mb-3">
+                    <label for="" class="form-label">Telefono</label>
+                    <input type="text" class="form-control" name="telefono" id="" aria-describedby="helpId"
+                        placeholder="Telefono"/>
+                 
+                </div>
+            
+                <div class="mb-3">
+                    <label for="" class="form-label">Fecha</label>
+                    <input type="date" class="form-control" name="fecha" id="" aria-describedby="helpId"
+                    />
+                    
+                <div>
+                <button type="submit" class="btn btn-primary">Guardar</button>
+            </form>
+        <div>
+    <div>
+<div>
+
+{% include "fooder.html" %}
